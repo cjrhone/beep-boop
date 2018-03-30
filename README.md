@@ -6,7 +6,7 @@
 
 ## Description
 
-_A simple website that takes a users number input and returns either beep, boop, or "I'm sorry Dave I can't do that"
+_A simple website that takes a users number input and returns either beep, boop, or "I'm sorry Dave. I'm afraid I can't do that"
 This website was created at Epicodus coding bootcamp as a week 3 independent project._
 
 ## Setup/Installation Requirements
@@ -26,9 +26,13 @@ This website was created at Epicodus coding bootcamp as a week 3 independent pro
     -Example Input: 1
     -Example Output: ["Boop!"]_
 
-* _Program replaces 3 with "I'm sorry Dave I can't do that."
+* _Program replaces 3 with "I'm sorry Dave. I'm afraid I can't do that."
     -Example Input: 3
-    -Example Output: ["I'm sorry Dave I can't do that."]_
+    -Example Output: ["I'm sorry Dave. I'm afraid I can't do that."]_
+
+* _Program replaces numbers divisible by 3 with "I'm sorry Dave. I'm afraid I can't do that."
+    -Example Input: 30
+    -Example Output: ["I'm sorry Dave. I'm afraid I can't do that."]_
 
 * _Program recognizes order of operations ( conditions least to most important )."
     -Example Input: 10

@@ -19,31 +19,27 @@ $(document).ready(function() {
 
 var robotize = function(number) {
 
-  console.log("booting up");
-//
-// var conditions = [1, 0, 3];
-//
-//   for (var i=0; i < number.length; i++) {
+var numberString =  number.toString().split('');
 
-    console.log("Roboting");
 
-    if (number === 1){ //'1'
 
-      return "1";
 
-    }
-    if ( number === 0) { // '0'
+  console.log(numberString);
 
-      return "0";
 
+    if (numberString === '0') { // '0'
+      return "Beep!";
     }
 
-    if ( number === 3 || number % 3 == 0 ) {
+    if (numberString === '1'){ //'1'
+      return "Boop!";
+    }
 
-      return "I'm sorry Dave, I can't do that.";
+    console.log(number);
 
+    if (number % 3 == 0) { //Checks condition of 3 or divisible by 3
+      return "I'm sorry Dave, I'm afraid I can't do that.";
     } else {
-
-      return "BZZT. Does not compute.";
+      return "BZZT. Does not compute."; //Returns error if no conditions met
     };
   };
