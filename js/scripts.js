@@ -1,3 +1,5 @@
+// USER INTERFACE LOGIC
+
 $(document).ready(function() {
   $("#robotForm").submit(function(event) {
     event.preventDefault();
@@ -5,9 +7,22 @@ $(document).ready(function() {
     alert("Your button is working, human.");
 
     var userNum = parseInt($("#robotInput").val());
+    var finalResult = robotize(userNum)
 
     $(".results").show();
-    $(".results").text(userNum);
+    $(".results").text(finalResult);
 
   });
 });
+
+//BUSINESS LOGIC
+
+var robotize = function(number) {
+
+if ( number === 1 ) {
+  return "boop";
+} else {
+  return "beep";
+}
+
+}
