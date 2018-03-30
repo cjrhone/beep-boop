@@ -1,3 +1,73 @@
-.results {
+/* .results {
   display: none;
+} */
+
+body {
+  background-color: #252422;
+}
+
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #CCC5B9;
+  font-family: monospace;
+  font-size: 50px;
+}
+h4 {
+  display: block;
+  margin-left: center;
+  margin-right: center;
+  color: #CCC5B9;
+  font-family: monospace;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+
+}
+
+.jumbotron {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  color: white;
+  font-size: 50px;
+  font-family: monospace;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
