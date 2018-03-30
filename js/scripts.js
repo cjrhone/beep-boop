@@ -4,5 +4,10 @@ $(document).ready(function() {
 
     alert("Your button is working, human.");
 
+    var userNum = parseInt($("#robotInput").val());
+
+    $(".results").show();
+    $(".results").text(userNum);
+
   });
 });
