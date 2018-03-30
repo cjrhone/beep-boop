@@ -4,16 +4,12 @@ $(document).ready(function() {
   $("#robotForm").submit(function(event) {
     event.preventDefault();
 
-    alert("Your button is working, human.");
-
     var userNum = parseInt($("#robotInput").val()); //transform Input from string to integer ( to check if 3 divisible first)
     var finalResult = robotize(userNum)
 
-    alert(robotize(userNum));
-    $(".results").text(finalResult);
     $(".results").show();
-
-
+    $('#textResult').addClass('animated slideInUp');
+    $("#textResult").text(finalResult);
 
   });
 });

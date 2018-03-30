@@ -1,7 +1,14 @@
-/* .results {
+.results {
   display: none;
-} */
+}
 
+#textResult {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 16%
+
+}
 body {
   background-color: #252422;
 }
